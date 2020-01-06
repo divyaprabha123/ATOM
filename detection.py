@@ -50,14 +50,14 @@ def detect(test_image, plot_show = False):
   label_map = label_map_util.load_labelmap(PATH_TO_LABELS)
   categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
   category_index = label_map_util.create_category_index(categories)
-
+  print(type(test_image))
   #INPUT FILE
-  if type(test_image)=="str":
-    TEST_IMAGE_PATHS=[test_image]
+  if str(type(test_image))!="<class 'list'>":
+    TEST_IMAGE_PATHS=[test_image]  
   else:
-    TEST_IMAGE_PATHS=list(test_image)
+    TEST_IMAGE_PATHS=test_image
   IMAGE_SIZE = (12, 8)
-
+  final_images,boxes_collect,scores_collect,classes_collect,num_collect = [],[],[],[],[]
   with detection_graph.as_default():
     with tf.Session(graph=detection_graph) as sess:
       # Definite input and output Tensors for detection_graph
@@ -90,12 +90,13 @@ def detect(test_image, plot_show = False):
             min_score_thresh=0.3,
             use_normalized_coordinates=True,
             line_thickness=8)
-        if plot_show = True:
+        if plot_show == True:
           plt.figure(figsize=IMAGE_SIZE)
           plt.imshow(image_np)
-       boxes_collect.append(boxes)
-       scores_collect.append(scores)
-       classes_collect.append(classes)
-       num_collect.append(num)
+        final_images.append(image_np)
+        boxes_collect.append(boxes)
+        scores_collect.append(scores)
+        classes_collect.append(classes)
+        num_collect.append(num)
 
-  return image_np,boxes_collect,scores_collect,classes_collect,num_collect
+  return image_np,boxes_collect,scores_collect,classes_collect,num_collect 
