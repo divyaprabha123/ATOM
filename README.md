@@ -18,6 +18,6 @@ Many studies only focus on the detection of the presence or absence of damage. H
 
 2. Sign Detection
 
-  ![Traffic_Sign_detection.ipynb](https://github.com/divyaprabha123/ATOM/blob/master/Traffic_Sign_detection.ipynb)
+      ![Traffic_Sign_detection.ipynb](https://github.com/divyaprabha123/ATOM/blob/master/Traffic_Sign_detection.ipynb)
   
-  ![model](https://drive.google.com/uc?id=1hYRTeNAxn45TNDXv6uca4ySAAGVS0DSg)
+      ![model](https://drive.google.com/uc?id=1hYRTeNAxn45TNDXv6uca4ySAAGVS0DSg)
