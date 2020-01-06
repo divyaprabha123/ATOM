@@ -1,0 +1,8 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"name":"PSG Tech","url":"http://web.mta.info/nyct/service/","line":"Avinashi","objectid":"1","class":"Pothole"},"geometry":{"type":"Point","coordinates":[77.00253009796143,11.02368110531636]}},
+    {"type":"Feature","properties":{"name":"Aloft","url":"http://web.mta.info/nyct/service/","line":"Kamarajar Road","objectid":"2","class":"Road Furniture"},"geometry":{"type":"Point","coordinates":[77.0236160564,11.0148203513]}},
+    {"type":"Feature","properties":{"name":"Tidel Park","url":"http://web.mta.info/nyct/service/","line":"Vilankuruchi road","objectid":"3","class":"Shoulder Clearance"},"geometry":{"type":"Point","coordinates":[77.0167635037908,11.030678331460905]}}
+    ]
+}
