@@ -7,6 +7,8 @@
   
 ### Abstract
 
+The Pradhan Mantri Gram Sadak Yojana (PMGSY), was launched by the Govt. of India to provide connectivity to unconnected Habitations as part of a poverty reduction strategy. Govt. of India is endeavouring to set high and uniform technical and management standards and facilitating policy development and planning at State level in order to ensure sustainable management of the rural roads network. The proposed solution aims to the provide a system to automatically assess the picture taken during inspection and identify common issues such as shoulder clearance, potholes, road furniture etc. The solution will also provide a user interface to locate the issues along each route. 
+Many studies only focus on the detection of the presence or absence of damage. However, in a real-world scenario, knowing the type of damage clearly will also make prioritise the work and help complete it efficiently.
 
 
 ### Modules involved
