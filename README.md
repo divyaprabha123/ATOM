@@ -1,5 +1,6 @@
 # SIH
 ## Road Damage detection
+![alt text](https://drive.google.com/uc?id=1MiaRqHoFel01ZpCmvY3T8VZHpHe6oyO2)
 1. clone this repo
 2. change the directory to the folder cloned
 3. To test
