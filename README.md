@@ -16,6 +16,7 @@ The features of the proposed system
   2. Identifying road furniture from photos 
   3. Grading road quality 
   4. Mapping them to user interface 
+
 TECH STACK :
      Python • Tensorflow • OpenCV • NumPy • MatplotLib • Python-Flask • MongoDB 
 
