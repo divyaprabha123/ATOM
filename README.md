@@ -17,15 +17,15 @@ The features of the proposed system
   3. Grading road quality 
   4. Mapping them to user interface 
 
-**TECH STACK :**
-     • Python 
-     • Tensorflow 
-     • OpenCV 
-     • NumPy 
-     • MatplotLib 
-     • Python-Flask 
-     • MongoDB 
-     • Pillow
+### TECH STACK 
+  1. Python 
+  2. Tensorflow 
+  3. OpenCV 
+  4. NumPy 
+  5. MatplotLib 
+  6. Python-Flask 
+  7. MongoDB 
+  8. Pillow
 
 ### Modules involved
 1. Road Damage Type Detection
@@ -35,4 +35,11 @@ The features of the proposed system
 2. Sign Detection
 
       ![Traffic_Sign_detection.ipynb](https://github.com/divyaprabha123/ATOM/blob/master/Traffic_Sign_detection.ipynb)
-  
+
+### To Test
+```
+!git clone https://github.com/divyaprabha123/ATOM
+import detection as d
+image_path = "test_images/test_image (1).jpg"
+image,*_=d.detection(image_path,plot_show=True)
+```
