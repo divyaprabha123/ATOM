@@ -17,8 +17,15 @@ The features of the proposed system
   3. Grading road quality 
   4. Mapping them to user interface 
 
-TECH STACK :
-     Python • Tensorflow • OpenCV • NumPy • MatplotLib • Python-Flask • MongoDB 
+**TECH STACK :**
+     • Python 
+     • Tensorflow 
+     • OpenCV 
+     • NumPy 
+     • MatplotLib 
+     • Python-Flask 
+     • MongoDB 
+     • Pillow
 
 ### Modules involved
 1. Road Damage Type Detection
