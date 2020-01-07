@@ -7,9 +7,17 @@
   
 ### Abstract
 
-The Pradhan Mantri Gram Sadak Yojana (PMGSY), was launched by the Govt. of India to provide connectivity to unconnected Habitations as part of a poverty reduction strategy. Govt. of India is endeavouring to set high and uniform technical and management standards and facilitating policy development and planning at State level in order to ensure sustainable management of the rural roads network. The proposed solution aims to the provide a system to automatically assess the picture taken during inspection and identify common issues such as shoulder clearance, potholes, road furniture etc. The solution will also provide a user interface to locate the issues along each route. 
-Many studies only focus on the detection of the presence or absence of damage. However, in a real-world scenario, knowing the type of damage clearly will also make prioritise the work and help complete it efficiently.
-
+The Pradhan Mantri Gram Sadak Yojana (PMGSY), was launched by the Govt. of India to provide connectivity to unconnected Habitations as part of a poverty reduction strategy. Govt. of India is endeavouring to set high and uniform technical and management standards and facilitating policy development and planning at State level in order to ensure sustainable management of the rural roads network. 
+The guidelines for the scheme suggest the following as the objective of Quality Control. [1]   
+The objective of Quality Monitoring under PMGSY, i.e. inspection of road works by national level independent monitors is to identify shortcomings in respect of quality of road works and to guide the PIUs about the specifications, good practices and effective execution of works with desired quality. The role of these monitors is to critically examine the road works and give feedback about quality of road works and quality management related shortcomings to the State level quality management team and NRRDA to enable systemic improvements.   
+The proposed solution aims to the provide a system to automatically assess the picture taken during inspection and identify common issues such as shoulder clearance, potholes, road furniture etc. The solution will also provide a user interface to locate the issues along each route. This thereby helps automate the monitoring process.  
+The features of the proposed system  
+  1. Detecting & Classifying potholes from photos 
+  2. Identifying road furniture from photos 
+  3. Grading road quality 
+  4. Mapping them to user interface 
+TECH STACK :
+     Python • Tensorflow • OpenCV • NumPy • MatplotLib • Python-Flask • MongoDB 
 
 ### Modules involved
 1. Road Damage Type Detection
