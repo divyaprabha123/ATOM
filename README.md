@@ -36,4 +36,3 @@ The features of the proposed system
 
       ![Traffic_Sign_detection.ipynb](https://github.com/divyaprabha123/ATOM/blob/master/Traffic_Sign_detection.ipynb)
   
-      ![model](https://drive.google.com/uc?id=1hYRTeNAxn45TNDXv6uca4ySAAGVS0DSg)
