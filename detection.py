@@ -35,8 +35,8 @@ NUM_CLASSES = 8
 def load_image_into_numpy_array(image):
   (im_width, im_height) = image.size
   return np.array(image.getdata()).reshape(
-      (im_height, im_width, 3)).astype(np.uint8
-                                       
+      (im_height, im_width, 3)).astype(np.uint8)
+
 def detect(test_image, plot_show = False):
   detection_graph = tf.Graph()
   with detection_graph.as_default():
