@@ -18,8 +18,6 @@ from io import StringIO
 from matplotlib import pyplot as plt
 from PIL import Image
 
-if tf.__version__ != '1.4.1':
-  raise ImportError('Please upgrade your tensorflow installation to v1.4.1!')
 
 from utils import label_map_util
 
